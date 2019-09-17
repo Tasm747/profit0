@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="profit">
+		<class>com.ab.profit.entity.Certificate</class>
+		<class>com.ab.profit.entity.Education</class>
+		<class>com.ab.profit.entity.Hobby</class>
+		<class>com.ab.profit.entity.Language</class>
+		<class>com.ab.profit.entity.Practic</class>
+		<class>com.ab.profit.entity.Profile</class>
+		<class>com.ab.profit.entity.Contacts</class>
+		<class>com.ab.profit.entity.ProfileRestore</class>
+		<class>com.ab.profit.entity.Skill</class>
+		<class>com.ab.profit.entity.SkillCategory</class>
+		<class>com.ab.profit.entity.AbstractFinishDateEntity</class>
+		<class>com.ab.profit.entity.Course</class>
+	</persistence-unit>
+</persistence>
